@@ -1,0 +1,10 @@
+version: '3.5'
+services:
+  db:
+    build:
+      context: .
+      dockerfile: ./app/build/docker/db/Dockerfile
+    environment:
+      MYSQL_ROOT_PASSWORD: vuchel
+    ports:
+      - 3306:3306

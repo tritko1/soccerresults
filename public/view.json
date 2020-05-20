@@ -1,0 +1,12 @@
+[
+  {
+    "key": "Abschlusstabelle",
+    "text": "Abschlusstabelle",
+    "value": "getbltable"
+  },
+  {
+    "key": "Ergebnisse",
+    "text": "Ergebnisse",
+    "value": "getmatchdata"
+  }
+]
